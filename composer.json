@@ -1,0 +1,18 @@
+{
+    "name": "wooze/cos",
+    "require": {
+        "qcloud/cos-sdk-v5": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wooze\\Cos\\": "src"
+        }
+    },
+    "extra" : {
+        "laravel": {
+            "providers": [
+                "Wooze\\Cos\\ServiceProvider"
+            ]
+        }
+    }
+}
